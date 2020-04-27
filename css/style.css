@@ -175,6 +175,32 @@ margin: 10px;
 width: 300px;
 }
 
+.travel{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 500px;
+  }
+
+.travel > img{
+margin: 10px;
+width: 500px;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.recipes > img{
+  margin: 10px;
+  width: 500px;
+}
+
 /* .gallery img{
 transition: all 0.6s ease;
 }
@@ -347,6 +373,7 @@ nav a{
  .gallery > img{
    width: 300px;
  }
+
 
  .about-me-page{
    grid-template-columns: 210px auto auto 210px;
