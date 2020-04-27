@@ -218,24 +218,20 @@ transform: rotateY(180deg);
 }
 
 .socials{
-display: grid;
-grid-column: 3;
-grid-row: 1;
-place-self: end;
-}
-
-.socials ul{
- list-style-type: none;
- text-align: end;
-}
-
-.socials li{
-display: inline-block;
+  display: flex;
+  grid-column: 2;
+  grid-row: 4;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  min-height: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .socials img{
- width: 10%;
- height: 30%;
+margin: 5px;
+width: 20px;
 }
 
 footer{
@@ -353,7 +349,7 @@ nav a{
  }
 
  .about-me-page{
-   grid-template-columns: 150px auto auto 150px;
+   grid-template-columns: 210px auto auto 210px;
    grid-template-rows: auto auto;
    column-gap: 10px;
    row-gap: 30px;
@@ -376,6 +372,13 @@ nav a{
    padding-left: 20px;
    margin: 0;
 
+ }
+
+ .socials{
+   grid-column: 3 / 4;
+   grid-row: auto;
+   padding-top: 0;
+   padding-bottom: 400px;
  }
 
 
