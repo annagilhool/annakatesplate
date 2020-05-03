@@ -205,7 +205,7 @@ width: 300px;
   min-height: 500px;
   }
 
-.travel > img{
+.travel a img{
 margin: 10px;
 max-width: 300px;
 }
@@ -319,6 +319,303 @@ margin: 5px;
 width: 20px;
 }
 
+.coffee-salamanca-container{
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-row-gap: 20px;
+}
+
+.waycup-heading{
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin: 20px 0 0 0;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.waycup-heading h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1.3em;
+}
+
+.waycup-heading a{
+  color: #404040;
+  text-decoration: none;
+}
+
+.waycup-text{
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.waycup-image{
+  grid-column: 2 / 3;
+  grid-row: 3;
+  margin-bottom: 30px;
+}
+
+.waycup-image img{
+  width: 100%;
+}
+
+.religion-heading{
+  grid-column: 2 / 3;
+  grid-row: 4;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.religion-heading h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1.3em;
+}
+
+.religion-heading a{
+  color: #404040;
+  text-decoration: none;
+}
+
+.religion-text{
+  grid-column: 2 / 3;
+  grid-row: 5;
+}
+
+.religion-image{
+  grid-column: 2 / 3;
+  grid-row: 6;
+  margin-bottom: 30px;
+}
+
+.religion-image img{
+  width: 100%;
+}
+
+.madbreak-container{
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: auto;
+  grid-row-gap: 20px;
+}
+
+.shortstack-heading{
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin: 20px 0 0 0;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.shortstack-heading h2, .gotham-heading h2, .madsour-heading h2, .marigold-heading h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1.3em;
+}
+
+.shortstack-heading a, .gotham-heading a, .madsour-heading a, .marigold-heading a{
+  color: #404040;
+  text-decoration: none;
+}
+
+.shortstack-text{
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.shortstack-image{
+  grid-column: 2 / 3;
+  grid-row: 3;
+  margin-bottom: 30px;
+}
+
+.shortstack-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.gotham-heading{
+  grid-column: 2 / 3;
+  grid-row: 4;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.gotham-text{
+  grid-column: 2 / 3;
+  grid-row: 5;
+}
+
+.gotham-image{
+  grid-column: 2 / 3;
+  grid-row: 6;
+  margin-bottom: 30px;
+}
+
+.gotham-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.madsour-heading{
+  grid-column: 2 / 3;
+  grid-row: 7;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.madsour-text{
+  grid-column: 2 / 3;
+  grid-row: 8;
+}
+
+.madsour-image{
+  grid-column: 2 / 3;
+  grid-row: 9;
+  margin-bottom: 30px;
+}
+
+.madsour-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.marigold-heading{
+  grid-column: 2 / 3;
+  grid-row: 10;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.marigold-text{
+  grid-column: 2 / 3;
+  grid-row: 11;
+}
+
+.marigold-image{
+  grid-column: 2 / 3;
+  grid-row: 12;
+  margin-bottom: 30px;
+}
+
+.marigold-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.meatcope-container, .cheapmadrid-container{
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: auto;
+  grid-row-gap: 20px;
+}
+
+.mother-heading, .takos-heading{
+  grid-column: 2;
+  grid-row: 1;
+  margin: 20px 0 0 0;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.mother-heading h2, .warpigs-heading h2, .johnshotdog-heading h2, .takos-heading h2, .mercado-heading h2, .grocery-heading h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1.3em;
+}
+
+.mother-heading a, .warpigs-heading a, .johnshotdog-heading a, .takos-heading a{
+  color: #404040;
+  text-decoration: none;
+}
+
+.mother-text, .takos-text{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mother-image, .takos-image{
+  grid-column: 2;
+  grid-row: 3;
+  margin-bottom: 30px;
+}
+
+.mother-image img, .takos-image img, .mercado-image img, .grocery-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.warpigs-heading, .mercado-heading{
+  grid-column: 2;
+  grid-row: 4;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.warpigs-text, .mercado-text{
+  grid-column: 2;
+  grid-row: 5;
+  margin-bottom: 30px;
+}
+
+.mercado-image{
+  grid-column: 2;
+  grid-row: 6;
+  margin-bottom: 30px;
+}
+
+.johnshotdog-heading{
+  grid-column: 2;
+  grid-row: 6;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.johnshotdog-text{
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.johnshotdog-image{
+  grid-column: 2;
+  grid-row: 8;
+  margin-bottom: 30px;
+}
+
+.johnshotdog-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.grocery-heading{
+  grid-column: 2;
+  grid-row: 7;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.grocery-text{
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.grocery-image{
+  grid-column: 2;
+  grid-row: 9;
+}
+
+
+
+
 footer{
   background-color: #ffffff;
 }
@@ -395,8 +692,12 @@ nav li{
   padding: 185px 0 0 0;
 }
 
-.travel > img{
+.travel a img{
 max-width: 400px;
+}
+
+.coffee-salamanca-container, .madbreak-container, .meatcope-container, .cheapmadrid-container{
+  grid-template-columns: 150px auto 150px;
 }
 
 
@@ -500,8 +801,12 @@ nav a{
    width: 500px;
  }
 
- .travel > img{
+ .travel a img{
  max-width: 500px;
+ }
+
+ .coffee-salamanca-container, .madbreak-container, .meatcope-container, .cheapmadrid-container{
+   grid-template-columns: 350px auto 350px;
  }
 
 
