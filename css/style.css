@@ -813,7 +813,7 @@ nav a{
  }
 
  .recipes-page{
-   grid-template-columns: 210px auto auto 210px;
+   grid-template-columns: 100px auto auto 100px;
    grid-template-rows: auto auto;
    column-gap: 10px;
    row-gap: 30px;
