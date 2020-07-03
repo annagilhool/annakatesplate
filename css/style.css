@@ -4,6 +4,14 @@ body{
   color: #000000;
 }
 
+.back-button{
+  margin-left: 50px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 15px;
+}
+
 h1{
   font-stretch: expanded;
   text-transform: uppercase;
@@ -525,7 +533,7 @@ width: 20px;
   border-bottom-style: solid;
 }
 
-.mother-heading h2, .warpigs-heading h2, .johnshotdog-heading h2, .takos-heading h2, .mercado-heading h2, .grocery-heading h2{
+.mother-heading h2, .warpigs-heading h2, .johnshotdog-heading h2, .takos-heading h2, .mercado-heading h2, .grocery-heading h2, .laluz-heading h2, .menudeldia-heading h2{
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
@@ -533,7 +541,7 @@ width: 20px;
   font-size: 1.3em;
 }
 
-.mother-heading a, .warpigs-heading a, .johnshotdog-heading a, .takos-heading a{
+.mother-heading a, .warpigs-heading a, .johnshotdog-heading a, .takos-heading a, .laluz-heading a{
   color: #404040;
   text-decoration: none;
 }
@@ -549,7 +557,7 @@ width: 20px;
   margin-bottom: 30px;
 }
 
-.mother-image img, .takos-image img, .mercado-image img, .grocery-image img{
+.mother-image img, .takos-image img, .mercado-image img, .grocery-image img, .laluz-image img{
   width: 100%;
   height: 100%;
 }
@@ -611,7 +619,40 @@ width: 20px;
 .grocery-image{
   grid-column: 2;
   grid-row: 9;
+  margin-bottom: 30px;
 }
+
+.laluz-heading{
+  grid-column: 2;
+  grid-row: 10;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.laluz-text{
+  grid-column: 2;
+  grid-row: 11;
+}
+
+.laluz-image{
+  grid-column: 2;
+  grid-row: 12;
+  margin-bottom: 30px;
+}
+
+.menudeldia-heading{
+  grid-column: 2;
+  grid-row: 13;
+  border: thin;
+  border-bottom-style: solid;
+}
+
+.menudeldia-text{
+  grid-column: 2;
+  grid-row: 14;
+  margin-bottom: 100px;
+}
+
 
 
 
@@ -673,6 +714,10 @@ nav li{
   padding: 0 5px 12px 5px;
 }
 
+.back-button{
+  margin-left: 150px;
+}
+
 .nav-bar-extras{
   display: inline-block;
   position: absolute;
@@ -708,7 +753,6 @@ max-width: 400px;
 
 .main{
   grid-template-columns: 210px 1fr 3fr 210px;
-
 }
 
 .index-header{
@@ -718,6 +762,10 @@ max-width: 400px;
 
 nav a{
   font-size: 2em;
+}
+
+.back-button{
+  margin-left: 50px;
 }
 
 
